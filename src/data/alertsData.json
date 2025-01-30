@@ -1,0 +1,94 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "location": "San Francisco, CA",
+      "severity": "high",
+      "severityColor": "red",
+      "type": "Earthquake",
+      "description": "Earthquake reported in the Area, please stay out of your rooms and hide under a table",
+      "helpGuideLink": "/help/earthquake"
+    },
+    {
+      "id": 2,
+      "location": "New York, USA",
+      "severity": "medium",
+      "severityColor": "orange",
+      "type": "Heavy Rains",
+      "description": "Heavy Rains reported in the Area, please stay indoors and go out only when necessary",
+      "helpGuideLink": "/help/heavy-rains"
+    },
+    {
+      "id": 3,
+      "location": "Miami, FL",
+      "severity": "high",
+      "severityColor": "red",
+      "type": "Hurricane",
+      "description": "Hurricane approaching the coast. Follow evacuation orders and secure your property",
+      "helpGuideLink": "/help/hurricane"
+    },
+    {
+      "id": 4,
+      "location": "Los Angeles, CA",
+      "severity": "medium",
+      "severityColor": "orange",
+      "type": "Wildfire",
+      "description": "Wildfire spreading in nearby areas. Be prepared for possible evacuation",
+      "helpGuideLink": "/help/wildfire"
+    },
+    {
+      "id": 5,
+      "location": "Chicago, IL",
+      "severity": "low",
+      "severityColor": "yellow",
+      "type": "Severe Storm",
+      "description": "Thunderstorm warning issued. Seek indoor shelter and avoid open areas",
+      "helpGuideLink": "/help/severe-storm"
+    },
+    {
+      "id": 6,
+      "location": "Houston, TX",
+      "severity": "high",
+      "severityColor": "red",
+      "type": "Flash Flood",
+      "description": "Flash flood warning in effect. Move to higher ground immediately",
+      "helpGuideLink": "/help/flash-flood"
+    },
+    {
+      "id": 7,
+      "location": "Seattle, WA",
+      "severity": "low",
+      "severityColor": "yellow",
+      "type": "Landslide",
+      "description": "Potential landslide risk due to heavy rainfall. Monitor local news for updates",
+      "helpGuideLink": "/help/landslide"
+    },
+    {
+      "id": 8,
+      "location": "Phoenix, AZ",
+      "severity": "medium",
+      "severityColor": "orange",
+      "type": "Extreme Heat",
+      "description": "Extreme heat advisory. Stay hydrated and avoid outdoor activities",
+      "helpGuideLink": "/help/extreme-heat"
+    },
+    {
+      "id": 9,
+      "location": "Boston, MA",
+      "severity": "high",
+      "severityColor": "red",
+      "type": "Blizzard",
+      "description": "Severe blizzard conditions expected. Stock up on supplies and stay indoors",
+      "helpGuideLink": "/help/blizzard"
+    },
+    {
+      "id": 10,
+      "location": "Denver, CO",
+      "severity": "medium",
+      "severityColor": "orange",
+      "type": "Avalanche",
+      "description": "Avalanche warning for mountain areas. Avoid backcountry travel",
+      "helpGuideLink": "/help/avalanche"
+    }
+  ]
+} 

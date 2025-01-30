@@ -1,13 +1,19 @@
 import React from "react"
-import Header from "./components/Header"
-
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from "./components/Layout"
+import LandingPage from "./components/LandingPage"
+import Help from './components/Help';
 
 function App() {
   return (
-    <div className="text-blue-800">
-      <Header />
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/help" element={<Help />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   )
 }
 
