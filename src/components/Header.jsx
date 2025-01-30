@@ -11,7 +11,7 @@ const Header = () => {
           <a href="#" className="relative after:absolute after:bg-gray-500 after:h-[2px] after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0" >Add</a>
           <Link to="/help" className="relative after:absolute after:bg-gray-500 after:h-[2px] after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0" >Help</Link>
           <Link to="/signup" className="relative after:absolute after:bg-gray-500 after:h-[2px] after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0" >SignUp</Link>
-          <button className="border px-3 py-1 rounded text-white bg-black hover:bg-white hover:border-black hover:text-black transition-all duration-300" >Login</button>
+          <Link to="/login" className="border px-3 py-1 rounded text-white bg-black hover:bg-white hover:border-black hover:text-black transition-all duration-300">Login</Link>
         </nav>
       </header>
     );
