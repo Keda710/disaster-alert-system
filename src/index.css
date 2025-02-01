@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  }
+
+.text-animation {
+  background: linear-gradient(to right, #0ea5e9 50%, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 100%;
+  animation: text-fill 3s linear infinite alternate;
+}
+
+@keyframes text-fill {
+  0% {
+    background-position: 100% 0;
+  }
+
+  95% {
+    background-position: 0 100%;
+  }
+}
